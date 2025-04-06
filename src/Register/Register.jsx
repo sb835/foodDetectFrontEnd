@@ -26,7 +26,7 @@ function Register({ onRouteChange, loadUser }) {
     // - loads the user using loadUser
     // - redirects to the home page using onRouteChange
     const onSubmitRegister = () => {
-        fetch('http://localhost:3000/register', {
+        fetch(`${import.meta.env.VITE_API_URL}/register`, {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

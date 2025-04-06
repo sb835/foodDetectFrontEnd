@@ -42,7 +42,7 @@ function App() {
         console.log('Click');
         setUrl(input);
 
-        fetch('http://localhost:3000/analyze', {
+        fetch(`${import.meta.env.VITE_API_URL}/analyze`, {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -51,7 +51,7 @@ function App() {
         })
             .then((response) => {
                 if (response) {
-                    fetch('http://localhost:3000/image', {
+                    fetch(`${import.meta.env.VITE_API_URL}/image`, {
                         method: 'put',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({

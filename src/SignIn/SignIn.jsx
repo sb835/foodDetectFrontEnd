@@ -20,7 +20,7 @@ function SignIn({ onRouteChange, loadUser }) {
     // - loads the user using loadUser
     // - redirects to the home page using onRouteChange
     const onSubmitSignIn = () => {
-        fetch('http://localhost:3000/signin', {
+        fetch(`${import.meta.env.VITE_API_URL}/signin`, {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
