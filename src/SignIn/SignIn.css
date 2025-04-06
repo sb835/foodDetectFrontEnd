@@ -1,0 +1,57 @@
+/* Container: zentriert, transparent mit Schatten */
+.signin-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    color: white;
+    font-family: sans-serif;
+}
+
+/* Innenstruktur: gleichmäßig verteilt */
+.signin-container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Einzelne Felder */
+.signin-container label {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+.signin-container input {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+/* Button */
+.signin-container button {
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.signin-container button:hover {
+    background-color: #357ab8;
+}
+
+/* Link */
+.signin-container a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 0.9rem;
+    text-align: center;
+    cursor: pointer;
+}

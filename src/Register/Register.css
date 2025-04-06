@@ -1,0 +1,55 @@
+/* Container mit transparenter Box und Schatten */
+.signin-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Innerer Wrapper (ehemaliges form) */
+.signin-container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Labels + Inputs */
+.signin-container label {
+    margin-bottom: 5px;
+}
+
+.signin-container input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Button */
+.signin-container button {
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.signin-container button:hover {
+    background-color: #357ab8;
+}
+
+/* Link */
+.signin-container a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 0.9rem;
+    text-align: center;
+}

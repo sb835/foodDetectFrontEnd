@@ -1,0 +1,41 @@
+.p1 {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+.input1 {
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button1 {
+    width: 30%;
+    transition: transform 0.25s ease-in-out;
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+    color: white;
+    background-color: #a463f2;
+}
+
+.button1:hover {
+    transform: scale(1.05);
+}
+
+.input-wrapper {
+    padding: 2rem;
+    width: 700px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
