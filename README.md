@@ -1,36 +1,45 @@
 # 🍽️ Food Recognition App
 
-Diese Anwendung erkennt automatisch Lebensmittel auf Bildern.  
-Du gibst eine Bild-URL eines Essens ein – die App analysiert das Bild mithilfe der **Clarifai API** und zeigt dir, welches Essen darauf zu sehen ist.
+A small full-stack web application that detects food in images using the **Clarifai API**.  
+Enter an image URL – the app analyzes it and returns the name of the food along with a confidence score.
 
 ---
 
-## 🧠 React + Vite App
+## Features
 
-Diese Webanwendung wurde mit **Vite** und **React** entwickelt.
+-   Input any food image URL
+-   Food detection via Clarifai's Food Recognition model
+-   Displays food name and confidence
+-   Animated background using `animated-backgrounds`
+-   User registration and sign-in
+-   Tracks how many images each user has submitted
 
----
-
-## 🎨 Hintergrund
-
-Animierter Hintergrund mit dem Paket:  
-[`npm animated-backgrounds`](https://www.npmjs.com/package/animated-backgrounds)
-
----
-
-## 🧠 API
-
-Bildanalyse erfolgt über die  
-**[Clarifai API – General Image Recognition](https://www.clarifai.com/models/general-image-recognition)**
+Example image: https://png.pngtree.com/png-vector/20231017/ourmid/pngtree-fresh-apple-fruit-red-png-image_10203073.png
 
 ---
 
-## 🍎 Beispielbild
+## Tech Stack
 
-![Beispielbild](https://png.pngtree.com/png-vector/20231017/ourmid/pngtree-fresh-apple-fruit-red-png-image_10203073.png)
+-   React
+-   Vite
+-   Node.js / Express (Backend)
+-   PostgreSQL (Database)
+-   Clarifai API (Image analysis)
+-   CSS (Custom styling)
 
 ---
 
-## 🍴 Logo
+## Getting Started
 
-Logo von [Icons8 – Food Icon](https://icons8.com/icon/114889/food)
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/food-recognition-app.git
+cd food-recognition-app
+
+# 2. Install dependencies
+npm install
+
+# 3. Start development server
+npm run dev
+
+```
