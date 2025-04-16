@@ -3,6 +3,15 @@
 }
 
 .div2 {
-    /* position: absolute; */
     margin-top: 0.5rem;
+}
+
+.detected-image {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }

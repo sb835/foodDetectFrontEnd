@@ -1,14 +1,14 @@
 .logo-div {
-    width: 7rem;
-    height: 7rem;
-    top: 2.25rem;
-    left: 2.25rem;
-    padding: 1rem;
+    width: 5rem;
+    height: 5rem;
+    top: 1.5rem;
+    left: 1.5rem;
+    padding: 0.5rem;
     border-radius: 0.75rem;
     box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
     color: #888;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }

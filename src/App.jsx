@@ -13,7 +13,7 @@ import { AnimatedBackground } from 'animated-backgrounds';
 function App() {
     const [input, setInput] = useState('');
     const [url, setUrl] = useState('');
-    const [route, setRoute] = useState('signin');
+    const [route, setRoute] = useState('home');
     const [user, setUser] = useState({
         id: '',
         name: '',
